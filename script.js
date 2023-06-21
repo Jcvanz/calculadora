@@ -19,4 +19,4 @@ const imcCalc = () => {
     resultado.textContent = `${nome.value} - ${getText(valorImc)}`;
 }
 
-button,addEventListener('click', imcCalc)
+button.addEventListener('click', imcCalc)
